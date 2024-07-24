@@ -82,5 +82,5 @@ images/: (Optional) Directory for storing any additional images used in the proj
 
 ## Notes
 File Paths: Ensure that the paths in the scripts for loading the video, image, and position files are correctly set according to your local environment.
-Threshold Values: The threshold values used for determining free vs. occupied spaces in detect_park_spaces.py may need adjustment based on your specific video and parking space characteristics.
-Manual Annotation: The manual annotation script (annotate_park_spaces.py) allows you to visually mark parking spaces on an image, which is useful for training and refining the detection model.
+Threshold Values: The threshold values used for determining free vs. occupied spaces in Project-CarParkAnalysis.py may need adjustment based on your specific video and parking space characteristics.
+Manual Annotation: The manual annotation script (Project-CarParkPick.py) allows you to visually mark parking spaces on an image, which is useful for training and refining the detection model.
