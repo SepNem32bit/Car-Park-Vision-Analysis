@@ -25,20 +25,22 @@ Ensure you have Python 3.x installed on your system. You also need to install th
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/car-park-detection.git
-   cd car-park-detection```
+   git clone https://github.com/SepNem32bit/car-park-detection.git
+   cd car-park-detection
+   ```
 
 2. **Set up a virtual environment:**
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate ```
+source venv/bin/activate  # On Windows use venv\Scripts\activate
+```
 
 3. **Install the required packages:**
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Download the dataset and model files:
+```
+4. **Download the dataset and model files:**
 
 Place your video file (carPark.mp4) and the car park positions file (CarParkPosition) in the Data/CarPark Detection directory.
